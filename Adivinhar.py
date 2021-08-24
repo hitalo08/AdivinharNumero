@@ -35,7 +35,6 @@ if nivel == 1:
     print('Número secreto: {}'.format(n))
 if nivel == 2:
     print('  Você escolheu o nivel 2. Restantes {}'.format(n2))
-    print(emoji.emojize(':beating_heart:' * 27))
     while n2 > 0:
         print(emoji.emojize(':beating_heart:' * 27))
         v = int(input('Valor: '))
@@ -54,7 +53,6 @@ if nivel == 2:
     print('Número secreto: {}'.format(n))
 if nivel == 3:
     print('  Você escolheu o nivel 3. Restantes {}'.format(n3))
-    print(emoji.emojize(':beating_heart:' * 27))
     while n3 > 0:
         print(emoji.emojize(':beating_heart:' * 27))
         v = int(input('Valor: '))
