@@ -6,7 +6,6 @@ print("""\033[32mVocê poderá escolher o nivel de dificuldade
 e começará com 1000 pontos. Os seus pontos 
 serão subtraído pelo valor correspondente 
 a diferença entre o chute e o numero secreto\033[m""")
-
 print(emoji.emojize(':beating_heart:'*27))
 n = random.randint(1,40)
 n1 = 20
